@@ -4,15 +4,18 @@
 }
 body {
   font-family: "Kumbh Sans", serif;
-  background-color: #3c42e1;
 }
-/*LOGO*/
+/*Header*/
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 60px 0 60px;
+  padding: 40px 60px 40px 60px;
+  background-color: #6f74f4;
+  border: 5px inset #ff6347;
+  margin-bottom: 100px;
 }
+/*LOGO*/
 #logo {
   display: flex;
   align-items: center;
@@ -32,8 +35,74 @@ header {
 #navigation-input {
   width: 130px;
   height: 27px;
+  border: none;
+  border-radius: 3px;
 }
 #navigation-button {
   width: 60px;
   height: 27px;
+  color: #3c42e1;
+  font-size: 15px;
+  border: none;
+  font-family: "Kumbh Sans", serif;
+  border-radius: 3px;
+  background-color: white;
+}
+#navigation-button:hover {
+  background-color: #ff6347;
+}
+/*box-1*/
+#box-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 400px;
+  margin-bottom: 150px;
+}
+#p-1 {
+  font-size: 60px;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#p-2 {
+  font-size: 20px;
+  text-align: center;
+  color: #6f74f4;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+/*GRID*/
+#grid-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 350px;
+  column-gap: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 90px;
+}
+.grid-minibox {
+  border: 1px solid #ff6347;
+  border-radius: 15px;
+}
+.grid-img {
+  margin-top: 35px;
+  margin-left: 15px;
+}
+.p-grid-main {
+  margin-left: 15px;
+  font-weight: 600;
+  font-size: 19px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.p-grid {
+  margin-left: 15px;
+  font-size: 17px;
+  margin-right: 15px;
+  line-height: 1.2;
+  color: #6f74f4;
 }
