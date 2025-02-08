@@ -106,3 +106,25 @@ header {
   line-height: 1.2;
   color: #6f74f4;
 }
+/*img-box-1*/
+#box-2 {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  gap: 110px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.img-box {
+  border-radius: 20px;
+}
+.p-picture-1 {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.p-picture-2 {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #6f74f4;
+}
